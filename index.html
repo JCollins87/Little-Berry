@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Little Berry Systems | Managed IT, Urgent Support & Cybersecurity | MD • DC • VA</title>
+  <meta name="description" content="Little Berry Systems provides managed IT services, urgent support, and cybersecurity & compliance consulting for small businesses across Maryland, Washington DC, and Virginia." />
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Little Berry Systems | IT Support for Small Business (MD • DC • VA)" />
+  <meta property="og:description" content="Monthly managed IT, urgent support, and security & compliance consulting. Clear communication, fast response, and predictable options." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://littleberrysystems.com/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Little Berry Systems",
+    "url": "https://littleberrysystems.com/",
+    "email": "inquiry@littleberrysystems.com",
+    "areaServed": ["Maryland", "Washington DC", "Virginia"],
+    "description": "Managed IT services, urgent IT support, and cybersecurity & compliance consulting for small businesses across MD, DC, and VA."
+  }
+  </script>
+</head>
+
+<body>
+<header class="site-header">
+  <nav class="nav container">
+    <a class="brand" href="#home">
+      <span class="brand-mark"></span>
+      <span class="brand-text">Little Berry Systems</span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn btn-ghost" data-lane="Monthly Managed IT">Get Monthly IT Support</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Managed IT • Fast Help • Security & Compliance</p>
+      <h1>IT that runs quietly—so your business can run confidently.</h1>
+      <p class="subhead">
+        Little Berry Systems helps small businesses across <strong>Maryland</strong>, <strong>Washington DC</strong>, and
+        <strong>Virginia</strong> with monthly IT support, urgent fixes, and security guidance.
+        We handle the technology so you can focus on running your business.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#contact" data-lane="Monthly Managed IT">Get Monthly IT Support</a>
+        <a class="btn btn-secondary" href="#contact" data-lane="One-Time / Emergency">Get Urgent Help</a>
+        <a class="btn btn-ghost" href="#contact" data-lane="Security & Compliance">Request a Security Review</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container">
+    <h2>IT services built for small businesses</h2>
+    <p class="muted">Clear options, fast help, and technology that supports your goals—not distracts from them.</p>
+
+    <div class="cards-grid">
+      <article class="service-card">
+        <h3>Monthly Managed IT</h3>
+        <p>Ongoing support, monitoring, and guidance for a predictable monthly cost.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>One-Time / Emergency Support</h3>
+        <p>Fast help when something breaks—remote or onsite.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Security & Compliance Consulting</h3>
+        <p>Reduce risk and meet security or insurance requirements.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Wi-Fi & Networking</h3>
+        <p>Reliable, secure connectivity for your office.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Email & Microsoft 365</h3>
+        <p>Secure, reliable email and productivity support.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Backups & Recovery</h3>
+        <p>Protection against data loss, ransomware, and downtime.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section section-alt">
+  <div class="container">
+    <h2>About Little Berry Systems</h2>
+    <p>
+      Little Berry Systems partners with small businesses that want dependable IT without hiring internal staff.
+      We provide practical guidance, fast response, and security-focused support—explained in plain language.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-alt">
+  <div class="container contact-grid">
+    <div>
+      <h2>Send an inquiry</h2>
+      <p class="muted">
+        Tell us what you need and how soon. We’ll review your inquiry and follow up with clear next steps.
+        Prefer email? Contact <strong>inquiry@littleberrysystems.com</strong>.
+      </p>
+    </div>
+
+    <form id="contactForm" method="POST" action="https://formspree.io/f/REPLACE_ME">
+      <input type="hidden" name="_subject" value="New Business Inquiry - Little Berry Systems" />
+
+      <label>Name
+        <input name="name" required>
+      </label>
+
+      <label>Company
+        <input name="company" required>
+      </label>
+
+      <label>Email
+        <input name="email" type="email" required>
+      </label>
+
+      <label>Inquiry Type
+        <select name="inquiryType" required>
+          <option>Monthly Managed IT</option>
+          <option>One-Time / Emergency</option>
+          <option>Security & Compliance</option>
+        </select>
+      </label>
+
+      <label>Message
+        <textarea name="message" required></textarea>
+      </label>
+
+      <button class="btn btn-primary">Send Inquiry</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="small muted">© <span id="year"></span> Little Berry Systems. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
